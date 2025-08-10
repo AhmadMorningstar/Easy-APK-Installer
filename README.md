@@ -2,6 +2,11 @@
 
 This is a simple yet powerful command-line utility for installing multiple APK files on one or more Android devices simultaneously using ADB.
 
+## **How to Get the Program**
+
+1. **Download the latest release:** Go to the [**Releases**](https://www.google.com/search?q=https://github.com/AhmadMorningstar/Easy-APK-Installer/releases) page for this repository.  
+2. Download the easy\_apk\_installer\_cli.py file from the latest release.
+
 ## **Prerequisites: A Guide for Beginners**
 
 To use this program, you need to have a few things installed and set up on your computer. Follow these steps carefully, and you'll be ready to go in no time.
@@ -19,8 +24,9 @@ If you don't already have Python installed, you'll need to get it. This program 
 This program uses a library called colorama to add color to the text in the terminal. While not strictly necessary for the program to function, it makes the output much easier to read.
 
 1. Open your command prompt or terminal.  
-2. Type the following command and press Enter:  
-   pip install colorama
+2. Type the following command and press Enter:
+
+pip install colorama
 
 ### **Step 3: Install the Android ADB Tools**
 
