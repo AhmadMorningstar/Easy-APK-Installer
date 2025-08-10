@@ -1,19 +1,31 @@
 # **Easy APK Installer**
 
-This is a simple yet powerful command-line utility for installing multiple APK files on one or more Android devices simultaneously using ADB.
+This is a simple yet powerful utility for installing multiple APK files on one or more Android devices simultaneously using ADB. The project offers a command-line interface (CLI) and a graphical user interface (GUI) to suit different user needs.
 
-## **How to Get the Program**
+## **How to Download and Run**
 
-1. **Download the latest release:** Go to the [**Releases**](https://www.google.com/search?q=https://github.com/AhmadMorningstar/Easy-APK-Installer/releases) page for this repository.  
-2. Download the easy\_apk\_installer\_cli.py file from the latest release.
+There are three versions available on the [**Releases**](https://www.google.com/search?q=https://github.com/AhmadMorningstar/Easy-APK-Installer/releases) page. Choose the one that works best for you.
+
+#### **For Windows Users (No Python Required)**
+
+1. Download the **easy\_apk\_installer.exe** file from the latest release.  
+2. After downloading, you can run the executable directly.
+
+#### **For Users with Python**
+
+1. Download the **easy\_apk\_installer\_cli.py** or **gui\_easy\_apk\_installer.py** file from the latest release.  
+2. Make sure you have Python and the necessary libraries installed (see Step 2 in the Prerequisites section).  
+3. Run the corresponding file from your terminal:  
+   * For the CLI version: python easy\_apk\_installer\_cli.py  
+   * For the GUI version: python gui\_easy\_apk\_installer.py
 
 ## **Prerequisites: A Guide for Beginners**
 
-To use this program, you need to have a few things installed and set up on your computer. Follow these steps carefully, and you'll be ready to go in no time.
+To use the Python versions of this program, you will need to set up your environment.
 
 ### **Step 1: Install Python**
 
-If you don't already have Python installed, you'll need to get it. This program was written in Python and requires it to run.
+If you don't already have Python installed, you'll need to get it. This program was written in Python and requires it to run. **(This step is not necessary for the .exe file.)**
 
 1. **Download Python** from the official website: https://www.python.org/downloads/  
 2. **Run the installer.**  
@@ -21,12 +33,11 @@ If you don't already have Python installed, you'll need to get it. This program 
 
 ### **Step 2: Install the 'colorama' Library**
 
-This program uses a library called colorama to add color to the text in the terminal. While not strictly necessary for the program to function, it makes the output much easier to read.
+This program uses a library called colorama to add color to the text in the terminal. While not strictly necessary for the program to function, it makes the output much easier to read. **(This step is only for the CLI version.)**
 
 1. Open your command prompt or terminal.  
-2. Type the following command and press Enter:
-
-pip install colorama
+2. Type the following command and press Enter:  
+   pip install colorama
 
 ### **Step 3: Install the Android ADB Tools**
 
@@ -72,9 +83,3 @@ Finally, you need to prepare your Android device for communication with your com
 2. Go back to the main Settings menu, find **Developer options**, and enable **USB debugging**.  
 3. Connect your device to your computer using a USB cable.  
 4. When prompted, accept the "Allow USB debugging" dialog on your device.
-
-You are now ready to run the Easy APK Installer\!
-
-Simply run the following command in your terminal:
-
-python easy\_apk\_installer.py  
