@@ -4,7 +4,7 @@ This is a simple yet powerful utility for installing multiple APK files on one o
 
 ## **How to Download and Run**
 
-There are three versions available on the [**Releases**](https://www.google.com/search?q=https://github.com/AhmadMorningstar/Easy-APK-Installer/releases) page. Choose the one that works best for you.
+There are three versions available on the [**Releases**](https://github.com/AhmadMorningstar/Easy-APK-Installer/releases) page. Choose the one that works best for you.
 
 #### **For Windows Users (No Python Required)**
 
