@@ -9,7 +9,7 @@ There are two primary versions of this application available on the **Releases**
 #### **For Windows Users**
 
 * Download the easy\_apk\_installer.exe file from the latest release.  
-* This version provides a **graphical user interface (GUI)** with a **dark mode** theme.  
+* This version provides a **graphical user interface (GUI)** with a **dark** theme.  
 * You can run the executable directly after downloading it. No additional software is required beyond the ADB prerequisites.
 
 #### **For Linux & Mac Users**
