@@ -4,7 +4,7 @@ A simple and powerful utility for installing multiple APK files on one or more c
 
 ### **How to Download and Run**
 
-There are two primary versions of this application available on the **Releases** page. Choose the one that corresponds to your operating system.
+There are two primary versions of this application available on the **[Releases](https://github.com/AhmadMorningstar/Easy-APK-Installer/releases).** page. Choose the one that corresponds to your operating system.
 
 #### **For Windows Users**
 
