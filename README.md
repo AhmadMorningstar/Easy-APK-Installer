@@ -12,7 +12,7 @@ There are two primary versions of this application available on the **[Releases]
 * This version provides a **graphical user interface (GUI)** with a **dark** theme.  
 * You can run the executable directly after downloading it. No additional software is required beyond the ADB prerequisites.
 
-#### **For Linux & Mac Users**
+#### **For Linux & Mac Users** (Cooming Soon!)
 
 * Download the easy\_apk\_installer.py file from the latest release.  
 * This version runs in your terminal.  
