@@ -18,7 +18,7 @@ There are two primary versions of this application available on the **[Releases]
 * This version runs in your terminal.  
 * You will need to have Python and the colorama library installed (see Prerequisites).  
 * Run the file from your terminal using the following command:  
-  python easy\_apk\_installer.py
+python easy\_apk\_installer.py
 
 ### **File Descriptions**
 
@@ -35,9 +35,26 @@ To get started, you must first have the **Android ADB tools** set up on your sys
 
 This package contains the adb (Android Debug Bridge) command, the core tool this program uses to communicate with your Android devices.
 
+* **For Windows Users:**
+* **[How to install ADB & Fastboot on Windows 10/11 Youtube Guide](https://youtu.be/kLEPkRtYEY8)**
 * **Windows 10/11**  
-  * **Official Google Release:** Download the Platform-Tools package from [Google's official website](https://developer.android.com/tools/releases/platform-tools). Unzip the file and add the directory to your system's PATH.  
-  * **15-Second Installer:** For a faster, automated option, download and run the installer from [https://androidmtk.com/download-15-seconds-adb-installer](https://androidmtk.com/download-15-seconds-adb-installer). When prompted, simply press Y and Enter to confirm each step.  
+* **Official Google Release:** Download the Platform-Tools package from [Google's official website](https://developer.android.com/tools/releases/platform-tools). Unzip the file and add the directory to your system's PATH.  
+* **15-Second Installer:** For a faster, automated option, download and run the installer from [https://androidmtk.com/download-15-seconds-adb-installer](https://androidmtk.com/download-15-seconds-adb-installer). When prompted, simply press Y and Enter to confirm each step.  
+* **For Linux Users:**  
+  * The easiest way is through your system's package manager.  
+  * **Debian, Ubuntu, Mint:** sudo apt install android-tools-adb  
+  * **Fedora, CentOS:** sudo dnf install android-tools  
+  * **Arch Linux:** sudo pacman \-S android-tools  
+* **For Mac Users:**  
+  * Download the Platform-Tools package from [Google's official website](https://developer.android.com/tools/releases/platform-tools) and add the directory to your system's PATH. Alternatively, you can use a package manager like Homebrew.
+
+#### **Step 2: Python & Library (Linux & Mac Only)**
+
+The Python version requires Python and the colorama library to run.
+
+* **Install Python:** Download and install Python from the [official website](https://www.python.org/downloads/).  
+* **Install 'colorama':** Open your terminal and run the following command to install the library, which provides colored text for better readability:  
+  pip install colorama
 
 ### **Step 3: Connect Your Android Device**
 
